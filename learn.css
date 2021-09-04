@@ -1,0 +1,44 @@
+/*Pour plus d'accessibilité aux navigateurs les polices se doivent d'être proposées en plusieurs formats. Mais ici full osef*/
+@font-face{
+	font-family: "police1";
+	src: url("./assets/Anton-Regular.ttf");
+}
+@font-face{
+	font-family: "police2";
+	src: url("./assets/IBMPlexSansArabic-Light.ttf");
+}
+body{
+	background: red;
+	font-family: "police2";
+}
+p{
+	font-size: medium;
+	background-color: orangered;
+	color : yellow;
+}
+
+.Titres{
+	background:whitesmoke
+}
+
+h2[class*="tres"]{
+	background: orangered;
+}
+
+.Pbm{
+	background: orange;
+}
+
+#underline, #divtest{
+	text-decoration: underline;
+}
+
+h1{
+	font-size: xx-large;
+	font-family: "police1";
+}
+
+h1 em, strong{
+	text-decoration:underline;
+	background: whitesmoke;
+}
