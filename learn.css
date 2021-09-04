@@ -8,25 +8,37 @@
 	src: url("./assets/IBMPlexSansArabic-Light.ttf");
 }
 body{
-	background: red;
+	color: white;
+	background: black;
 	font-family: "police2";
 }
 p{
-	font-size: medium;
-	background-color: orangered;
-	color : yellow;
+	font-size: large;
+	background-color: black;
+	color : white;
+	clear: both;
+	border-radius: 0.25rem;
 }
 
-.Titres{
-	background:whitesmoke
+ul{
+	width: 22rem;
+	font-size: x-large;
+	font-weight: bold;
 }
 
 h2[class*="tres"]{
-	background: orangered;
+	color: white;
+	background: black;
+	text-align: center;
+	border-radius: 0.5rem;
+	border: 0.2rem white dashed;
 }
 
-.Pbm{
-	background: orange;
+.Pbm span{
+	border-bottom: 0.5rem solid white;
+	padding-bottom: 0.05rem;
+	border-bottom-width: 0.05rem;
+	border-bottom-style: line;
 }
 
 #underline, #divtest{
@@ -34,11 +46,60 @@ h2[class*="tres"]{
 }
 
 h1{
+	color: white;
+	text-align: center;
 	font-size: xx-large;
 	font-family: "police1";
+	border: 0.3rem white solid;
+	background:black;
+	box-shadow: 0px 6px 0px black;
+}
+
+h1 strong{
+	font-weight: bold;
 }
 
 h1 em, strong{
-	text-decoration:underline;
-	background: whitesmoke;
+	font-size: xxx-large;
+	font-style: oblique;
+}
+
+img[title="satanus1"]{
+	float: right;
+	width: 20%;
+	height: 20%;
+}
+img[title="satanus2"]{
+	float: left;
+	width: 20%;
+	height:20%;
+}
+
+img{
+	float: left;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: x-large;
+	font-weight: bold;
+}
+li:hover a{
+	color: black;
+	background: white;
+	width:40%;
+	border: 0.25rem black double;
+}
+li:hover a:visited{
+	color: black;
+}
+
+li:active a{
+	background: rgba(255,255,255, 25);
+	width:40%;
+}
+
+a:visited{
+	color:white;
 }
