@@ -63,7 +63,7 @@ h1 em, strong{
 	font-size: xxx-large;
 	font-style: oblique;
 }
-
+/*shitty satanic png*/
 img[title="satanus1"]{
 	float: right;
 	width: 20%;
@@ -75,10 +75,18 @@ img[title="satanus2"]{
 	height:20%;
 }
 
-img{
-	float: left;
+.meme{
+	display: flex;
+	justify-content: space-around;
+	background: white;
+	padding: 3%;
+	flex-wrap: wrap;
 }
-
+.meme img{
+	height: 400px;
+	margin: 2%;
+}
+/* nav menu */
 a{
 	color: white;
 	text-decoration: none;
@@ -94,12 +102,10 @@ li:hover a{
 li:hover a:visited{
 	color: black;
 }
-
 li:active a{
 	background: rgba(255,255,255, 25);
 	width:40%;
 }
-
 a:visited{
 	color:white;
 }
