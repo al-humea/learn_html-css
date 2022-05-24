@@ -41,8 +41,12 @@ h2[class*="tres"]{
 	border-bottom-style: line;
 }
 
-#underline, #divtest{
+#underline, .divtest{
 	text-decoration: underline;
+}
+
+.divtest {
+	display: flex;
 }
 
 h1{
